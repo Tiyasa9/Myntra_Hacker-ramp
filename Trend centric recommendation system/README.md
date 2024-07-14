@@ -19,11 +19,6 @@ To facilitate collaboration with team members, I initiated a repository on GitHu
 
 Overall, by employing Flask and integrating frontend technologies, I created an immersive web application with an interactive UI, closely resembling Myntra's official website. The project's well-organized structure, collaboration-ready repository, and usage of a virtual environment contribute to a streamlined and efficient development process.
 
-## Please take a look at the elegantly designed user interface of Myntra, which I have created utilizing my web development expertise.
-```bash
-https://replit.com/@MANMEET75/WrithingImaginaryInstitutions-1?v=1
-```
-
 ## Let's put our recommendation system to the test!
 <img src="appdemo.gif" alt="testing-of-recommendation-system">
 
@@ -42,33 +37,3 @@ The content-based recommendation system that I have developed using the Myntra d
 Overall, the content-based recommendation system I have developed can help Myntra drive growth by providing personalized recommendations, increasing user engagement, enhancing the customer experience, gaining a competitive edge, and leveraging valuable data-driven insights.
 
 
-## To utilize the recommendation system on your local system, kindly follow the provided instructions.
-
-1) To proceed, open the command prompt on your system and navigate to the desired directory where you wish to store the model. Then, execute the following command.
-```bash
-git clone https://github.com/MANMEET75/FashionFinderMyntra.git
-```
-
-2) Kindly download the "similarity.pkl" file from the provided link, as it exceeds the file size limit for GitHub storage.
-```bash
-https://drive.google.com/file/d/1TiME7B9SpiMz6p-UtWzyYRYuKefup4Tj/view?usp=share_link
-```
-3) Please open your preferred integrated development environment (IDE), such as PyCharm or Visual Studio Code (VScode). For optimal performance, we recommend using VScode. Once opened, navigate to the "artifacts" folder within the IDE and paste the "similarity.pkl" file into it.
-4) To create and activate the virtual environment, execute the provided command in your command prompt.
-```bash
-cd FashionFinderMyntra
-py -3 -m venv venv
-venv\Scripts\activate
-
-```
-5) Install all the necessary packages and libraries by executing the following pip command.
-```bash
-pip install -r requirements.txt
-```
-7) To utilize the recommendation system, simply enter the command "python app.py" in your command prompt.
-```bash
-python app.py
-```
-
-
-Enjoy Coding!!
